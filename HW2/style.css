@@ -1,0 +1,21 @@
+#introduction {
+    font-size: 20px;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.background {
+    background-color: rgba(212, 81, 81, .7);
+}
+
+.border {
+    border: 5px solid #000;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.introduction:hover {
+    background-color: rgba(212, 81, 81, .7);
+}
