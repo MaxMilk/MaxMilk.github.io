@@ -1,0 +1,33 @@
+
+#form{
+    border: 5px solid #000;
+    padding: 10px;
+    border-style: double;
+    background-color: pink;
+}
+
+input {
+    padding: 2vw;
+}
+div {
+    background-color: yellow';
+}
+button {
+    padding: 25px;
+}
+
+button:hover {
+    background-color: green;
+
+}
+
+
+textarea {
+    width: 400px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+

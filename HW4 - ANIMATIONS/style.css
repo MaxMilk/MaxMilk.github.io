@@ -1,0 +1,48 @@
+
+.background {
+    background-color: rgba(13, 238, 238, 0.7);
+}
+
+.Border{
+    border: 5px solid #000;
+    padding: 10px;
+    border-style: double;
+}
+
+.bounce {
+    padding: 25px;
+    transition: transform 1s ease-in-out;
+}
+
+.bounce:hover {
+    transition-delay: 1s;
+    transition-property: margin-right, red;
+    transform: translateX(50%)
+}
+
+.ball{
+    background-color: rgba(211, 147, 9, 0.822);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;  
+}
+
+
+
+
+@keyframes bounce-ball{
+    0% {
+        transform: translateX(0)
+    }
+
+    50% {
+        transform: translateX(50%) translatey(50%)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+
+}
+
+

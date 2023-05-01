@@ -1,0 +1,52 @@
+
+#example{
+    border: 5px solid #000;
+    background-color: rgb(243, 141, 25);
+    padding: 10px;
+    border-style: double;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+input {
+    padding: 2vw;
+}
+
+button {
+    width:  100px;
+    height: 50px;
+}   
+
+button:hover {
+    background-color: green;
+
+}
+
+
+
+#textbox{
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+
+#textbox2{
+    width:  200px;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+}
