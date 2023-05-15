@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="style.css" rel="stylesheet">
+      <script src="theScript.js"></script>
+      <title>Web</title>
+  </head>
+  <style>
+    body {
+      background-image: url('background.jpg');
+    }
+  </style>
+  <body>
+    
+    <h1>Word Search</h1>
+    <form>
+      <label for="input-text" style="font-family: 'Impact';">Input text:</label><br>
+      <textarea id="input-text" name="input-text" rows="4" cols="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo Lorem. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est Lorem.</textarea><br>
+      <label for="input-word" style="font-family: 'Impact';">Word:</label><br>
+      <input type="text" id="input-word" name="input-word" value="Lorem"><br><br>
+      <input type="button" value="Search" onclick="highlightText()"  style="height:40px; width:100px" id="button" >
+      <br><hr><br> 
+    </form>
+    <div id="output"></div>
+    <script src="highlighter.js"></script>
+  </body>
+</html>
+
+
+<!--
+
+<b>ProtoType Example:</b> <br />
+    <div id ="example">
+      
+      <h1>WORDSEARCH</h1>
+      
+      
+      <label style="font-family: 'Impact';" >INPUT:</label> <br />
+
+      <div>
+        <textarea id = "textbox"></textare            a> <br />
+      </div>
+
+      <div>
+        <label style="font-family: 'Impact';" >WORD:</label> <br />
+        <textarea id = "textbox2"></textarea>
+      </div>
+      
+      <button>Submit</button> <br />
+      <hr>
+      <div>
+        <label style="font-family: 'Impact';" >COUNT: 1</label> <br /> 
+      </div>
+        This is Testing <b> Potato</b>. 
+    </div>
+-->

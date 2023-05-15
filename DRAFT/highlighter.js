@@ -15,7 +15,6 @@ function highlightText() {
       var outputDiv = document.getElementById("output");
       outputDiv.innerHTML = "Count: " + count + "<br>" + bolded;
     } else {
-      var nothing = inputText.replaceAll("N/A");
-//      alert("The word \"" + inputWord + "\" was not found in the text.");
+      alert("The word \"" + inputWord + "\" was not found in the text.");
     }
 }
